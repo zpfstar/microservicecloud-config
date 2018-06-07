@@ -1,17 +1,17 @@
-spring:
+ï»¿spring:
    profiles:
      active:
      -  dev
 
 ---
 spring:
-   profiles: dev  #¿ª·¢»·¾³
+   profiles: dev  #å¼€å‘ç¯å¢ƒ
    application:
          name:microservicecloud-config-zpf-dev
 ---
 spring: 
-  profiles: test  #²âÊÔ»·¾³
+  profiles: test  #æµ‹è¯•ç¯å¢ƒ
    application:
          name:microservicecloud-config-zpf-test
-#±ØĞë±£´æÎªUTF-8¸ñÊ½
+#å¿…é¡»ä¿å­˜ä¸ºUTF-8æ ¼å¼
 
