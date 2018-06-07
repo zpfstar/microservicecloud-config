@@ -4,14 +4,19 @@
       -  dev
 
 ---
+
 spring:
-   profiles: dev   #开发环境
-      application:
-         name:  microservicecloud-config-zpf-dev
+  profiles:  dev
+  application:
+    name:   microservicecloud-config-zpf-dev
+
+
+
 ---
-spring: 
-  profiles: test   #测试环境
-     application:
-          name:  microservicecloud-config-zpf-test
+
+spring:
+  profiles:  test
+  application:
+    name:   microservicecloud-config-zpf-test
 #必须保存为UTF-8格式
 
